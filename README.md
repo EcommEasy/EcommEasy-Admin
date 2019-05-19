@@ -1,35 +1,33 @@
-# Ecomm-Admin - A React and NodeJS based Ecommerce Dashboard Application
+# Setup Instructions
 
-Ecomm-Admin is React and Node.js based eCommerce platform. 
+## Requirements
+   - Node.js >= 8
+   - MongoDB >= 3.2
+   
+## EcommEasy Admin Dashboard Installation
 
-Built with:
-* Node.js v8.9
-* React v16
-* Redux
-* Express
-* Babel
-* WebPack 4
-* MongoDB
+- **Clone Git repository**
+```shell
+git clone https://github.com/EcommEasy/EcommEasy-Admin.git
+```
+- **Go to EcommEasy-Admin app folder**
+```shell
+ cd EcommEasy-Admin
+ ```
 
-## Dashboard
-Client-side dashboard use JSON Web Token (JWT) to access REST API.
+- **Install dependencies**
+ ```shell
+ npm install
+ ```
 
-## Installation
+- **Run Application**
 
-### Requirements
-* Node.js >= 8
-* MongoDB >= 3.2
+**P.S. Your backend (api) must be online. Follow this [README](https://github.com/EcommEasy/EcommEasy/blob/master/README.md) file before you run EcommEasy-Admin.**
 
+Start the application in the background
+```shell
+pm2 start process.json
+```
 
-## Documentation
+At this setup your EcommEasy admin dashboard app is now connected to api and available in browser at http://localhost:3002 
 
-## Application Structure
-
-## Contributing
-
-If you can, please contribute by reporting issues, discussing ideas, or submitting pull requests with patches and new features. We do our best to respond to all issues and pull requests within a day or two, and make patch releases to npm regularly.
-
-
-## Licence
-
-This software is provided free of charge and without restriction under the MIT License
